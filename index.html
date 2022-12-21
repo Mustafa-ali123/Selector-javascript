@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .main {
+        margin-left: 80vh;
+        margin-top: 30vh;
+        margin-right: 80vh;
+        padding-left: 40px;
+        padding-bottom: 15px;
+        border: black 1px solid;
+        background-color: lightgreen;
+
+    }
+
+    #btn {
+
+        margin-left: 10vh;
+        width: 15vh;
+        height: 4vh;
+        background-color: cyan;
+        border-color: white;
+        font-style: italic;
+        font-weight: bolder;
+
+    }
+</style>
+
+<body>
+
+    <div class="main">
+        <h2>Enter the Mobile Company</h2>
+        <form action="http://www.example.com/profile.php">
+            <select id="fop" onclick="abc()" name="devices">
+
+                <option id="first">Enter the Mobile Company Name</option>
+                <option>samsung</option>
+                <option>iphone</option>
+                <option>xiomi</option>
+            </select>
+        </form>
+        <br />
+        <h2>Enter the Mobile full name</h2>
+        <form action="http://www.example.com/profile.php">
+            <select name="devices" id="op1">
+                <option id="second">Enter the Mobile Name</option>
+
+            </select>
+        </form>
+
+        <br />
+        <br />
+
+        <button id="btn" onclick="rander()">Search</button>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
